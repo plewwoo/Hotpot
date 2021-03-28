@@ -391,7 +391,7 @@ footer{
 }
 
 .extra-menu1{
-    width: 33%;
+    width: 30%;
 }
 .extra-menu1 ul{
     padding-left: 0;
@@ -414,7 +414,7 @@ footer{
 }
 
 .extra-menu2{
-    width: 33%;
+    width: 30%;
 }
 
 .extra-menu2 ul{
@@ -442,12 +442,11 @@ footer{
 }
 
 .extra-menu3{
-    width: 33%;
+    width: 30%;
 }
 
 .footer-contact{
     position: relative;
-    width: 360px;
 }
 
 .pic_footer{
@@ -457,7 +456,7 @@ footer{
 }
 
 .pic_footer img{
-    width: 360px;
+    width: 100%;
     height: 130px;
 }
 
@@ -539,6 +538,10 @@ footer{
         color: white;
         font-size: 18px;
         font-weight: 500;
+    }
+
+    .main{
+        padding: 0 15px;
     }
 
     .main-container1{
@@ -624,6 +627,10 @@ footer{
         cursor: pointer;
     }
 
+    footer{
+        padding: 0 15px;
+    }
+
     .extra{
         margin: auto;
         max-width: 750px;
@@ -645,6 +652,10 @@ footer{
         width: 100%;
     }
 
+    .footer-contact{
+        width: 340px;
+    }
+
     .copyright{
         max-width: 750px;
     }
@@ -662,10 +673,10 @@ footer{
     }
 
     .menu-bar ul a{
-        padding: 4px 20px;
+        padding: 4px 10px;
         text-decoration: none;
         color: white;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 500;
     }
 
@@ -678,7 +689,6 @@ footer{
 
     .login{
         margin: auto;
-        grid-column: 1 / span 1;
         margin-bottom: 20px;
         width: 100%;
     }
