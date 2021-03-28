@@ -348,8 +348,12 @@ input{
     background-color: rgb(230, 230, 230);
 }
 
+.sub-img{
+    max-width: 250px;
+}
+
 .sub-box img{
-    width: 250px;
+    width: 100%;
     padding-right: 10px;
     margin-bottom: 10px;
 }
@@ -567,6 +571,10 @@ footer{
         margin: auto;
     }
 
+    .sub-img{
+        max-width: 100%;
+    }
+
     .sub-box{
         display: flex;
         flex-direction: column;
@@ -574,8 +582,10 @@ footer{
         border-bottom: 2px solid rgb(199, 199, 199);
         cursor: pointer;
     }
-    .sub-box img{
-        width: 750px;
+
+    .sub-img img{
+        width: 100%;
+        padding: 0;
     }
 
     .map-img{
@@ -616,5 +626,12 @@ footer{
 
     .copyright{
         max-width: 750px;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto;
     }
 }
