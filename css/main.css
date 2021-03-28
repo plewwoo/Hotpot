@@ -11,6 +11,7 @@ body{
 
 nav{
     position: sticky;
+    width: 100%;
     top: 0;
     left: 0;
     z-index: 10;
@@ -520,14 +521,21 @@ footer{
     font-size: 15px;
 }
 
-@media only screen and (max-width: 990px){
+@media only screen and (max-width: 1150px){
     .grid-container{
         display: grid;
         grid-template-columns: auto;
     }
 
+    nav{
+        margin: auto;
+        max-width: 100%;
+        background-color: #39b54a;
+        margin-bottom: 30px;
+    }
+
     .menu-bar{
-        width: 100%;
+        width: 700px;
         font-size: 10px;
     }
 
@@ -671,30 +679,48 @@ footer{
         grid-template-columns: auto;
     }
 
+    nav{
+        margin: auto;
+        max-width: 100%;
+        background-color: #39b54a;
+        margin-bottom: 30px;
+    }
+
     .menu-bar{
-        max-width: 500px;
+        width: 100%;
         font-size: 10px;
     }
 
     .menu-bar ul a{
-        padding: 4px 10px;
+        text-align: center;
+        padding: 4px 20px;
         text-decoration: none;
         color: white;
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 500;
+    }
+
+    .contact-logo{
+        padding: 4px 20px;
+    }
+
+    .main{
+        max-width: 500px;
+        margin: auto;
+        padding: 0 15px;
     }
 
     .main-container1{
         margin: auto;
-        max-width: 500px;
         display: flex;
         flex-direction: column;
     }
 
     .login{
         margin: auto;
+        grid-column: 1 / span 1;
         margin-bottom: 20px;
-        max-width: 100%;
+        width: 100%;
     }
 
     input{
@@ -704,14 +730,17 @@ footer{
         box-sizing: border-box;
     }
 
-    .img-box{
-        margin: auto;
+    .img-container{
         max-width: 100%;
+    }
 
+    .img-box{
+        width: 100%;
     }
 
     .img-box img{
         margin: 0;
+        width: 100%;
     }
 
     .main-container2{
@@ -767,6 +796,10 @@ footer{
         cursor: pointer;
     }
 
+    footer{
+        padding: 0 15px;
+    }
+
     .extra{
         margin: auto;
         max-width: 500px;
@@ -786,6 +819,10 @@ footer{
 
     .extra-menu3{
         width: 100%;
+    }
+
+    .footer-contact{
+        width: 340px;
     }
 
     .copyright{
