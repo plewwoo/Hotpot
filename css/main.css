@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Prompt', sans-serif;
 }
 
@@ -128,6 +127,7 @@ nav{
 .main{
     max-width: 1140px;
     margin: auto;
+    padding: 0 15px;
 }
 
 .main-container1{
@@ -136,7 +136,7 @@ nav{
 
 .login{
     border: 1px solid #e8e8e8;
-    width: 100%;
+    width: 30%;
     height: 100%;
     border-radius: 5px;
     margin: 0 15px;
@@ -228,7 +228,6 @@ input{
 
 .img-box img{
     width: 100%;
-    margin: 0 15px;
 }
 
 .left-btn{
@@ -528,7 +527,7 @@ footer{
     }
 
     .menu-bar{
-        max-width: 750px;
+        width: 100%;
         font-size: 10px;
     }
 
@@ -541,12 +540,13 @@ footer{
     }
 
     .main{
+        max-width: 700px;
+        margin: auto;
         padding: 0 15px;
     }
 
     .main-container1{
         margin: auto;
-        max-width: 750px;
         display: flex;
         flex-direction: column;
     }
@@ -566,12 +566,16 @@ footer{
     }
 
     .img-container{
-        margin: auto;
-        grid-column: 1 / span 1;
+        max-width: 100%;
+    }
+
+    .img-box{
+        width: 100%;
     }
 
     .img-box img{
         margin: 0;
+        width: 100%;
     }
 
     .main-container2{
@@ -690,7 +694,7 @@ footer{
     .login{
         margin: auto;
         margin-bottom: 20px;
-        width: 100%;
+        max-width: 100%;
     }
 
     input{
@@ -702,8 +706,8 @@ footer{
 
     .img-box{
         margin: auto;
-        max-width: 500px;
-        grid-column: 1 / span 1;
+        max-width: 100%;
+
     }
 
     .img-box img{
