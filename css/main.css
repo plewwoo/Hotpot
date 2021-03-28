@@ -597,9 +597,13 @@ footer{
         margin-right: 0;
     }
 
+    .map-img img{
+        width: 100%;
+    }
+
     .brand_list{
         border: 2px solid #39b54a;
-        width: 750px;
+        width: 100%;
         max-height: 635px;
         border-radius: 5px;
         margin: 15px 0;
@@ -723,12 +727,12 @@ footer{
     }
 
     .map-img img{
-        width: 500px;
+        width: 100%;
     }
 
     .brand_list{
         border: 2px solid #39b54a;
-        width: 500px;
+        width: 100%;
         max-height: 635px;
         border-radius: 5px;
         margin: 15px 0;
