@@ -586,6 +586,19 @@ footer{
         width: 100%;
     }
 
+    .left-btn{
+        position: absolute;
+        top: 350px;
+        left: 0;
+        font-size: 45px;
+    }
+    .right-btn{
+        position: absolute;
+        top: 350px;
+        right: 0;
+        font-size: 45px;
+    }
+
     .main-container2{
         max-width: 750px;
         margin: auto;
