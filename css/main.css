@@ -719,8 +719,8 @@ footer{
         margin-right: 0;
     }
 
-    .map-img img{
-        width: 100%;
+    .map{
+        height: 400px;
     }
 
     .brand_list{
