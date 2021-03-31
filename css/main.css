@@ -261,8 +261,8 @@ input{
 }
 .map-img{
     margin-right: 15px;
-    cursor: grab;
 }
+
 .brand_list{
     margin-left: 15px;
     border: 2px solid #39b54a;
@@ -562,7 +562,7 @@ footer{
         margin-right: 0;
     }
 
-    .map-img img{
+    .map{
         width: 100%;
     }
 
